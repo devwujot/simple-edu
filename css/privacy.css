@@ -1,0 +1,122 @@
+body {
+    margin: 0 auto; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #209ee6;
+    position: relative;
+}
+
+.tick {
+    text-decoration: none;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.navbar > a > h4 {
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar > a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.navbar > img {
+    margin-top: 20px;
+}
+
+.icon_filter {
+    width: 48px;
+    height: 48px;
+    filter: invert(100%) sepia(0%) saturate(23%) hue-rotate(125deg) brightness(106%) contrast(100%);
+}
+
+.icon_filter_blue {
+    width: 86px;
+    height: 86px;
+    filter: invert(51%) sepia(90%) saturate(1711%) hue-rotate(173deg) brightness(94%) contrast(91%);
+}
+
+.privacy_policy {
+    margin: 60px 0;
+}
+
+.terms_of_service {
+    margin: 60px;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color:  #209ee6;
+}
+
+.footer > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > .container > h5 {
+    color: #FFFFFF;
+    line-height: 70px;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+h3 {
+    margin: 60px 0;
+    font-family: 'Staatliches', cursive;
+}
+
+.privacy_policy > .container > h2 {
+    margin: 30px 0;
+}
+
+.terms_of_service > .container > h3 {
+    margin: 20px 0;
+}
+
+li {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 960px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 160px;
+    }
+
+    .footer > .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;;
+    }
+
+    .footer > .container > h5 {
+        font-size: 16px;
+    }
+
+ }
